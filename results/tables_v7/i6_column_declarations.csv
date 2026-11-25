@@ -1,0 +1,166 @@
+col,nominal_family,declared_family,t_f_relation,i6_certified,i6_verdict,drift_flag
+0,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+1,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,True
+2,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,True
+3,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+4,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+5,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+6,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+7,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+8,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+9,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+10,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+11,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+12,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+13,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+14,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+15,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+16,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+17,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+18,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+19,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+20,local93,transaction_scoped,t_f = t_y (same transaction),True,pass,False
+21,local93,address_scoped,block 575059 > all test windows,False,fail,False
+22,local93,address_scoped,block 575059 > all test windows,False,fail,False
+23,local93,address_scoped,block 575059 > all test windows,False,fail,False
+24,local93,address_scoped,block 575059 > all test windows,False,fail,False
+25,local93,address_scoped,block 575059 > all test windows,False,fail,False
+26,local93,address_scoped,block 575059 > all test windows,False,fail,False
+27,local93,address_scoped,block 575059 > all test windows,False,fail,False
+28,local93,address_scoped,block 575059 > all test windows,False,fail,False
+29,local93,address_scoped,block 575059 > all test windows,False,fail,False
+30,local93,address_scoped,block 575059 > all test windows,False,fail,False
+31,local93,address_scoped,block 575059 > all test windows,False,fail,False
+32,local93,address_scoped,block 575059 > all test windows,False,fail,False
+33,local93,address_scoped,block 575059 > all test windows,False,fail,False
+34,local93,address_scoped,block 575059 > all test windows,False,fail,False
+35,local93,address_scoped,block 575059 > all test windows,False,fail,False
+36,local93,address_scoped,block 575059 > all test windows,False,fail,False
+37,local93,address_scoped,block 575059 > all test windows,False,fail,False
+38,local93,address_scoped,block 575059 > all test windows,False,fail,False
+39,local93,address_scoped,block 575059 > all test windows,False,fail,False
+40,local93,address_scoped,block 575059 > all test windows,False,fail,False
+41,local93,address_scoped,block 575059 > all test windows,False,fail,False
+42,local93,address_scoped,block 575059 > all test windows,False,fail,False
+43,local93,address_scoped,block 575059 > all test windows,False,fail,False
+44,local93,address_scoped,block 575059 > all test windows,False,fail,False
+45,local93,address_scoped,block 575059 > all test windows,False,fail,False
+46,local93,address_scoped,block 575059 > all test windows,False,fail,False
+47,local93,address_scoped,block 575059 > all test windows,False,fail,False
+48,local93,address_scoped,block 575059 > all test windows,False,fail,False
+49,local93,address_scoped,block 575059 > all test windows,False,fail,False
+50,local93,address_scoped,block 575059 > all test windows,False,fail,False
+51,local93,address_scoped,block 575059 > all test windows,False,fail,False
+52,local93,address_scoped,block 575059 > all test windows,False,fail,False
+53,local93,address_scoped,block 575059 > all test windows,False,fail,False
+54,local93,address_scoped,block 575059 > all test windows,False,fail,False
+55,local93,address_scoped,block 575059 > all test windows,False,fail,False
+56,local93,address_scoped,block 575059 > all test windows,False,fail,False
+57,local93,address_scoped,block 575059 > all test windows,False,fail,True
+58,local93,address_scoped,block 575059 > all test windows,False,fail,False
+59,local93,address_scoped,block 575059 > all test windows,False,fail,False
+60,local93,address_scoped,block 575059 > all test windows,False,fail,False
+61,local93,address_scoped,block 575059 > all test windows,False,fail,False
+62,local93,address_scoped,block 575059 > all test windows,False,fail,False
+63,local93,address_scoped,block 575059 > all test windows,False,fail,True
+64,local93,address_scoped,block 575059 > all test windows,False,fail,False
+65,local93,address_scoped,block 575059 > all test windows,False,fail,False
+66,local93,address_scoped,block 575059 > all test windows,False,fail,False
+67,local93,address_scoped,block 575059 > all test windows,False,fail,False
+68,local93,address_scoped,block 575059 > all test windows,False,fail,False
+69,local93,address_scoped,block 575059 > all test windows,False,fail,False
+70,local93,address_scoped,block 575059 > all test windows,False,fail,False
+71,local93,address_scoped,block 575059 > all test windows,False,fail,False
+72,local93,address_scoped,block 575059 > all test windows,False,fail,False
+73,local93,address_scoped,block 575059 > all test windows,False,fail,False
+74,local93,address_scoped,block 575059 > all test windows,False,fail,False
+75,local93,address_scoped,block 575059 > all test windows,False,fail,False
+76,local93,address_scoped,block 575059 > all test windows,False,fail,True
+77,local93,address_scoped,block 575059 > all test windows,False,fail,False
+78,local93,address_scoped,block 575059 > all test windows,False,fail,True
+79,local93,address_scoped,block 575059 > all test windows,False,fail,False
+80,local93,address_scoped,block 575059 > all test windows,False,fail,False
+81,local93,address_scoped,block 575059 > all test windows,False,fail,False
+82,local93,address_scoped,block 575059 > all test windows,False,fail,True
+83,local93,address_scoped,block 575059 > all test windows,False,fail,False
+84,local93,address_scoped,block 575059 > all test windows,False,fail,True
+85,local93,address_scoped,block 575059 > all test windows,False,fail,False
+86,local93,address_scoped,block 575059 > all test windows,False,fail,False
+87,local93,address_scoped,block 575059 > all test windows,False,fail,False
+88,local93,address_scoped,block 575059 > all test windows,False,fail,False
+89,local93,address_scoped,block 575059 > all test windows,False,fail,False
+90,local93,address_scoped,block 575059 > all test windows,False,fail,False
+91,local93,address_scoped,block 575059 > all test windows,False,fail,False
+92,local93,address_scoped,block 575059 > all test windows,False,fail,False
+93,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+94,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+95,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+96,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+97,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+98,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+99,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+100,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+101,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+102,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+103,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+104,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+105,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+106,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+107,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+108,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+109,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+110,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+111,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+112,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+113,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+114,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+115,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+116,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+117,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+118,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+119,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+120,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+121,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+122,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+123,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+124,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+125,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+126,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+127,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+128,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+129,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+130,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+131,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+132,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+133,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+134,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+135,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+136,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+137,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+138,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+139,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+140,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+141,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+142,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+143,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+144,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+145,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+146,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+147,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+148,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+149,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+150,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,True
+151,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+152,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+153,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+154,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+155,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+156,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+157,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+158,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+159,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+160,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+161,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+162,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+163,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False
+164,aggregated72,neighbourhood_aggregated,block 575059 > all test windows,False,fail,False

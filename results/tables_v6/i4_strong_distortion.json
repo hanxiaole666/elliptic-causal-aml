@@ -1,0 +1,27 @@
+{
+  "design": "same frozen score vector; identity vs T=0.5 (val-frozen) vs T=2.0 (illegal test fit)",
+  "note": "implementation check of monotone invariance; T values are deliberately strong distortions, not fitted optima",
+  "n": 20000,
+  "base_rate": 0.02525,
+  "identity": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.38018787964405837,
+    "brier": 0.1977994299226143
+  },
+  "h_val_T05": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.4203000623385381,
+    "brier": 0.20744646046165227
+  },
+  "h_test_T20": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.33782119596888355,
+    "brier": 0.21009828869002353
+  },
+  "pr_auc_bit_identical": true,
+  "roc_auc_bit_identical": true,
+  "rank_order_identical": true
+}

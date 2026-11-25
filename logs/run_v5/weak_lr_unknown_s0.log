@@ -1,0 +1,97 @@
+[2026-11-24 21:44:56] START weak_lr_unknown_s0
+C:\Users\apple\anaconda3\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+{
+  "run_id": "9af218133fda",
+  "status": "done",
+  "family": "tabular",
+  "dataset_version": "elliptic",
+  "model": "lr",
+  "seed": 0,
+  "config": {
+    "model": "lr",
+    "seed": 0,
+    "epochs": 30,
+    "batch_size": 256,
+    "hidden": 32,
+    "layers": 2,
+    "neighbors": [
+      10,
+      10
+    ],
+    "alpha": 0.5,
+    "strict_time": false,
+    "degree_weight": false,
+    "time_encoding": true,
+    "standardize": true,
+    "time_k": 8,
+    "edge_world": "real",
+    "split_mode": "chrono",
+    "canonical_split": "none",
+    "feature_view": "all",
+    "attack": "none",
+    "attack_budget": 0.1,
+    "aggregator": "mean",
+    "label_protocol": "B",
+    "pu_prior": null,
+    "calibration": "temperature",
+    "threshold": 0.5,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "patience": 5,
+    "pos_weight_mode": "none",
+    "dropout": 0.5,
+    "keep_checkpoint": false
+  },
+  "edge_audit": {
+    "mode": "real",
+    "n_edges_in": 234355,
+    "n_edges_out": 234355,
+    "n_future_edges_removed": 0,
+    "max_source_degree": 472,
+    "max_target_degree": 284,
+    "causal_violations": 0
+  },
+  "unknown_audit": {
+    "n_known": 46564,
+    "n_unknown": 157205,
+    "columns": {
+      "0": {
+        "mean_delta": 0.0682389959692955,
+        "std_diff": 0.07529974354987559
+      },
+      "1": {
+        "mean_delta": -0.20622949302196503,
+        "std_diff": -0.16939526940238708
+      },
+      "2": {
+        "mean_delta": -0.19309940934181213,
+        "std_diff": -0.18920538555195507
+      },
+      "3": {
+        "mean_delta": -0.2232266217470169,
+        "std_diff": -0.17963049757117538
+      },
+      "4": {
+        "mean_delta": -0.03713754564523697,
+        "std_diff": -0.028476793603678798
+      }
+    }
+  },
+  "metrics": {
+    "raw_threshold": {
+      "n": 52298,
+      "positive_n": 828,
+      "pr_auc": 0.027906387222622106,
+      "roc_auc": 0.7293149872023382,
+      "f1": 0.06733153341781917,
+      "recall": 0.7379227053140096,
+      "precision": 0.03527509959009295,
+      "
+[2026-11-24 21:45:39] END weak_lr_unknown_s0 rc=0

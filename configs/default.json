@@ -1,0 +1,43 @@
+{
+  "dataset": {
+    "name": "elliptic",
+    "license": "CC BY-NC-ND 4.0 (redistribution of modified data prohibited)",
+    "source_url": "https://www.kaggle.com/api/v1/datasets/download/ellipticco/elliptic-data-set",
+    "required_files": [
+      "elliptic_txs_features.csv",
+      "elliptic_txs_classes.csv",
+      "elliptic_txs_edgelist.csv"
+    ],
+    "split_ratios": [0.55, 0.2, 0.25]
+  },
+  "model": {
+    "type": "causal_sage",
+    "hidden": 32,
+    "layers": 2,
+    "num_neighbors": [10, 10],
+    "aggregator": "mean",
+    "dropout": 0.5,
+    "alpha": 0.5,
+    "time_encoding_k": 8,
+    "use_time_encoding": true
+  },
+  "training": {
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "batch_size": 256,
+    "epochs": 30,
+    "patience": 5,
+    "device": "auto",
+    "eval_batch_size": 512
+  },
+  "evaluation": {
+    "primary_metric": "pr_auc",
+    "bootstrap_samples": 2000,
+    "k_list": [50, 100, 500],
+    "ece_bins": 10
+  },
+  "compute": {
+    "max_peak_vram_mb": 5120,
+    "oom_policy": "record_and_skip"
+  }
+}

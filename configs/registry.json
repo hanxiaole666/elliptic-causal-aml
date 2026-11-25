@@ -1,0 +1,26 @@
+{
+  "C1": {
+    "name": "standard contract configuration",
+    "model": "causal_sage",
+    "hidden": 32,
+    "layers": 2,
+    "alpha": 0.5,
+    "degree_weight": true,
+    "time_encoding": true,
+    "pos_weight_mode": "none",
+    "calibration": "temperature",
+    "epochs": 30,
+    "batch_size": 512,
+    "neighbors": [10, 10],
+    "features": "all",
+    "seeds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+    "selection": "pre-registered; fixed before test evaluation; no test-based tuning",
+    "note": "Single canonical configuration used by every main table, protocol comparison and paired analysis in the manuscript."
+  },
+  "C1-random": {"base": "C1", "split_mode": "random", "note": "diagnostic protocol rung; same model/hyperparameters as C1"},
+  "C1-unknown": {"base": "C1", "label_protocol": "B", "note": "unknown-as-negative; changes evaluation population"},
+  "C1-testcal": {"base": "C1", "calibration": "none", "note": "applies alternative calibration map to the SAME frozen scores as C1"},
+  "C1-strict": {"base": "C1", "strict_time": true, "note": "strict boundary tau(u)<tau(v); empty graph on native Elliptic"},
+  "C1-empty": {"base": "C1", "edge_world": "empty", "note": "zero-edge control; single code path with C1-strict"},
+  "C2-gat": {"model": "gat", "hidden": 32, "layers": 2, "epochs": 30, "calibration": "temperature", "seeds": [0,1,2,3,4], "note": "second graph baseline"}
+}

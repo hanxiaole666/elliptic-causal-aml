@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\summarize_results.py", line 269, in <module>
+    main()
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\summarize_results.py", line 253, in main
+    stats = statistical_tests(df)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\summarize_results.py", line 145, in statistical_tests
+    diff = a - b
+           ~~^~~
+ValueError: operands could not be broadcast together with shapes (72,) (5,) 

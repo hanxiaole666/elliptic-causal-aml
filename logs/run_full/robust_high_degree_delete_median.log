@@ -1,0 +1,24 @@
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\models\gnn.py:50: UserWarning: median CUDA with indices output does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at C:\cb\pytorch_1000000000000\work\aten\src\ATen\Context.cpp:83.)
+  out[node] = torch.median(values, dim=0).values
+Traceback (most recent call last):
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 538, in <module>
+    main()
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 513, in main
+    result = train_gnn(prep, args, run_id, result_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 441, in train_gnn
+    predict_gnn(model, sampler, prep, test_idx, args, eval_rng, apply_attack=True)
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 312, in predict_gnn
+    scores.append(torch.sigmoid(logits).cpu().numpy())
+    ^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'append'

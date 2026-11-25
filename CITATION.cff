@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this codebase or artifact, please cite it."
+title: "elliptic-causal-aml"
+type: software
+authors:
+  - family-names: "Han"
+    given-names: "Xiaole"
+    orcid: "https://orcid.org/0009-0009-9611-2368"
+    affiliation: "Business School, Qilu Institute of Technology, Jinan, Shandong 250200, China"
+    email: "hanxiaoleop@163.com"
+keywords:
+  - "anti-money laundering"
+  - "graph neural networks"
+  - "reproducibility"
+  - "temporal causality"
+license: "MIT"
+repository-code: "https://github.com/TODO/elliptic-causal-aml"
+abstract: "Reproducible causal evaluation pipeline for the Elliptic AML graph."

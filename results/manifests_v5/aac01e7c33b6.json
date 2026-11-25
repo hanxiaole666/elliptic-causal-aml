@@ -1,0 +1,55 @@
+{
+  "run_id": "aac01e7c33b6",
+  "dataset_version": "elliptic",
+  "data_paths": {
+    "elliptic_txs_features.csv": "D:\\Financial Micro-Modelling Project\\elliptic-causal-aml\\data\\raw\\elliptic_txs_features.csv",
+    "elliptic_txs_classes.csv": "D:\\Financial Micro-Modelling Project\\elliptic-causal-aml\\data\\raw\\elliptic_txs_classes.csv",
+    "elliptic_txs_edgelist.csv": "D:\\Financial Micro-Modelling Project\\elliptic-causal-aml\\data\\raw\\elliptic_txs_edgelist.csv"
+  },
+  "config": {
+    "model": "causal_sage",
+    "seed": 6,
+    "epochs": 30,
+    "batch_size": 512,
+    "hidden": 32,
+    "layers": 2,
+    "neighbors": [
+      10,
+      10
+    ],
+    "alpha": 0.5,
+    "strict_time": false,
+    "degree_weight": true,
+    "time_encoding": true,
+    "standardize": true,
+    "time_k": 8,
+    "edge_world": "real",
+    "split_mode": "random",
+    "canonical_split": "none",
+    "feature_view": "all",
+    "attack": "none",
+    "attack_budget": 0.1,
+    "aggregator": "mean",
+    "label_protocol": "A",
+    "pu_prior": null,
+    "calibration": "temperature",
+    "threshold": 0.5,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "patience": 5,
+    "pos_weight_mode": "none",
+    "dropout": 0.5,
+    "keep_checkpoint": false
+  },
+  "seeds": {
+    "python": 6,
+    "numpy": 6,
+    "torch": 6,
+    "sampler": 6
+  },
+  "versions": {
+    "python": "3.11.5",
+    "torch": "2.2.1"
+  },
+  "command": "D:/Financial Micro-Modelling Project/elliptic-causal-aml/scripts/run_pipeline.py --data-mode elliptic --device auto --output-dir D:/Financial Micro-Modelling Project/elliptic-causal-aml/outputs/v5 --split-mode random --model causal_sage --epochs 30 --batch-size 512 --neighbors 10 10 --alpha 0.5 --degree-weight --pos-weight-mode none --calibration temperature --seed 6"
+}

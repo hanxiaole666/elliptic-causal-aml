@@ -1,0 +1,131 @@
+{
+  "predicate": "I6: for each feature family f, t_f < t_y must be certified",
+  "n_columns": 165,
+  "declaration_completeness": {
+    "all_columns_declared": true,
+    "n_certified_i6": 21,
+    "n_verdict_fail": 144,
+    "n_undetermined": 144
+  },
+  "behavioural_flags": {
+    "n_strong_drift": 27,
+    "note": "drift flags are advisory; they do not prove leakage",
+    "columns": [
+      {
+        "col": 1,
+        "rho": 0.876,
+        "p": 1.7272202058329976e-16
+      },
+      {
+        "col": 2,
+        "rho": 0.907,
+        "p": 2.6948282686740523e-19
+      },
+      {
+        "col": 57,
+        "rho": -0.723,
+        "p": 4.4890741480045725e-09
+      },
+      {
+        "col": 63,
+        "rho": -0.726,
+        "p": 3.511134338009592e-09
+      },
+      {
+        "col": 76,
+        "rho": -0.749,
+        "p": 5.962002755885718e-10
+      },
+      {
+        "col": 78,
+        "rho": -0.755,
+        "p": 3.5554353750097885e-10
+      },
+      {
+        "col": 82,
+        "rho": -0.712,
+        "p": 9.725812620531919e-09
+      },
+      {
+        "col": 84,
+        "rho": -0.716,
+        "p": 7.323979040262635e-09
+      },
+      {
+        "col": 99,
+        "rho": 1.0,
+        "p": 0.0
+      },
+      {
+        "col": 100,
+        "rho": 1.0,
+        "p": 0.0
+      },
+      {
+        "col": 102,
+        "rho": 1.0,
+        "p": 0.0
+      },
+      {
+        "col": 105,
+        "rho": 0.851,
+        "p": 9.725831304675692e-15
+      },
+      {
+        "col": 106,
+        "rho": 0.807,
+        "p": 2.5719547523783354e-12
+      },
+      {
+        "col": 108,
+        "rho": 0.816,
+        "p": 9.021685019802935e-13
+      },
+      {
+        "col": 111,
+        "rho": 0.897,
+        "p": 2.902046124221013e-18
+      },
+      {
+        "col": 112,
+        "rho": 0.921,
+        "p": 6.455027363546443e-21
+      },
+      {
+        "col": 114,
+        "rho": 0.921,
+        "p": 6.843991739550037e-21
+      },
+      {
+        "col": 135,
+        "rho": 1.0,
+        "p": 0.0
+      },
+      {
+        "col": 136,
+        "rho": 1.0,
+        "p": 0.0
+      },
+      {
+        "col": 138,
+        "rho": 1.0,
+        "p": 0.0
+      }
+    ]
+  },
+  "verdict": "FAIL",
+  "evidence": {
+    "partition_from_column_indices": {
+      "n_transaction_scoped": 21,
+      "n_address_scoped": 72,
+      "n_neighbourhood_aggregated": 72,
+      "sum": 165,
+      "assertion": "sum == 165 and (21, 72, 72)"
+    },
+    "reference_block": 575059,
+    "elliptic_window_end_block": 487975,
+    "source": "Safar et al. FSIDI 2026 sec.3.2 (block 575,059); Liang et al. 2026 Table 1 (window 391200-487975)",
+    "partition_note": "Official schema: 166 features = 94 local (incl. time step) + 72 aggregated; after dropping txId and time step, 165 = 93 local + 72 aggregated = 21 transaction-scoped + 72 address-scoped + 72 neighbourhood-aggregated (Safar 2026 sec.3.1-3.2)."
+  },
+  "interpretation": "I6 returns FAIL: 144 of 165 columns are address- or neighbourhood-scoped aggregates evaluated at block 575,059, after the entire Elliptic window (end block 487,975), so t_f > t_y is demonstrated for those columns."
+}

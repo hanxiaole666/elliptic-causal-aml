@@ -1,0 +1,9 @@
+{
+  "path_a_edges": 0,
+  "path_b_edges": 0,
+  "sampled_edges_identical": true,
+  "sampled_nodes_identical": true,
+  "scores_bit_identical": true,
+  "max_abs_score_diff": 0.0,
+  "conclusion": "both paths produce identical empty-graph behaviour"
+}

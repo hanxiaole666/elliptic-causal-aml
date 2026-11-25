@@ -1,0 +1,32 @@
+REFERENCE [14] DOI RESOLUTION RECORD
+====================================
+Retrieved: 2026-11-25
+Source: Crossref REST API (https://api.crossref.org/works/10.1016/j.fsidi.2026.302124)
+Status: RESOLVED (Crossref "status":"ok", score 1.0)
+
+Verbatim fields from the Crossref work record:
+  DOI:            10.1016/j.fsidi.2026.302124
+  Type:           journal-article
+  Publisher:      Elsevier BV
+  Title:          "The enemy of reproducibility is opacity: What's inside the Elliptic bitcoin dataset (and why it is wrong)"
+  Journal:        Forensic Science International: Digital Investigation
+  Volume:         57
+  Article number: 302124  (Crossref "article-number":"302124"; "page":"302124")
+  Year:           2026-06 (published-print / issued)
+  ISSN:           2666-2817
+  PII:            S2666281726000818
+  Indexed:        2026-10-21T14:37:08Z
+
+Authors (4, verbatim from Crossref, with ORCID):
+  1. Miroslav Safar      ORCID 0009-0006-2409-316X
+  2. Jan Pluskal         ORCID 0000-0002-8304-3684
+  3. Vladimir Vesely     ORCID 0000-0002-6346-2152
+  4. Ondrej Rysavy       ORCID 0000-0001-9652-6418
+
+Note on the reviewer's concern: the record is indexed by Crossref (creation
+2026-07-22, deposit 2026-08-07) and resolves to the publisher via
+https://doi.org/10.1016/j.fsidi.2026.302124. The article is a 2026 DFRWS /
+Elsevier publication; general web search indexing may lag. All four author
+names, the volume, the six-digit article number and the title in the
+manuscript match this record verbatim. This file is the stable DOI-resolution
+record retained in the artifact in lieu of a publisher screenshot.

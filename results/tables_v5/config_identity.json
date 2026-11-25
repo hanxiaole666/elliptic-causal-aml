@@ -1,0 +1,60 @@
+{
+  "C1": {
+    "name": "standard contract configuration",
+    "model": "causal_sage",
+    "hidden": 32,
+    "layers": 2,
+    "alpha": 0.5,
+    "degree_weight": true,
+    "time_encoding": true,
+    "pos_weight_mode": "none",
+    "calibration": "temperature",
+    "epochs": 30,
+    "batch_size": 512,
+    "neighbors": [
+      10,
+      10
+    ],
+    "features": "all",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "selection": "pre-registered; fixed before test evaluation; no test-based tuning",
+    "note": "Single canonical configuration used by every main table, protocol comparison and paired analysis in the manuscript."
+  },
+  "note": "One configuration per model. Same-protocol values are unique across all tables.",
+  "rungs": {
+    "C1-chrono": {
+      "n_seeds": 15
+    },
+    "C1-random": {
+      "n_seeds": 15
+    },
+    "C1-unknown": {
+      "n_seeds": 15
+    },
+    "C1-testcal": {
+      "n_seeds": 15
+    },
+    "C1-strict": {
+      "n_seeds": 15
+    },
+    "C1-empty": {
+      "n_seeds": 15
+    }
+  }
+}

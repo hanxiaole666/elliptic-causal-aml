@@ -1,0 +1,86 @@
+{
+  "run_id": "3810da59ab4e",
+  "status": "done",
+  "family": "gnn",
+  "dataset_version": "elliptic",
+  "model": "causal_sage",
+  "seed": 2,
+  "config": {
+    "model": "causal_sage",
+    "seed": 2,
+    "epochs": 10,
+    "batch_size": 512,
+    "hidden": 32,
+    "layers": 2,
+    "neighbors": [
+      10,
+      10
+    ],
+    "alpha": 0.0,
+    "degree_weight": true,
+    "time_encoding": false,
+    "standardize": true,
+    "time_k": 8,
+    "edge_world": "real",
+    "split_mode": "chrono",
+    "attack": "none",
+    "attack_budget": 0.1,
+    "aggregator": "mean",
+    "label_protocol": "A",
+    "pu_prior": null,
+    "calibration": "none",
+    "threshold": 0.5,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "patience": 5,
+    "pos_weight_mode": "none",
+    "dropout": 0.5,
+    "keep_checkpoint": false
+  },
+  "edge_audit": {
+    "mode": "real",
+    "n_edges_in": 234355,
+    "n_edges_out": 234355,
+    "n_future_edges_removed": 0,
+    "max_source_degree": 472,
+    "max_target_degree": 284,
+    "causal_violations": 0
+  },
+  "unknown_audit": {
+    "n_known": 46564,
+    "n_unknown": 157205,
+    "columns": {
+      "0": {
+        "mean_delta": 0.0682389959692955,
+        "std_diff": 0.07529974354987559
+      },
+      "1": {
+        "mean_delta": -0.20622949302196503,
+        "std_diff": -0.16939526940238708
+      },
+      "2": {
+        "mean_delta": -0.19309940934181213,
+        "std_diff": -0.18920538555195507
+      },
+      "3": {
+        "mean_delta": -0.2232266217470169,
+        "std_diff": -0.17963049757117538
+      },
+      "4": {
+        "mean_delta": -0.03713754564523697,
+        "std_diff": -0.028476793603678798
+      }
+    }
+  },
+  "metrics": {
+    "raw_threshold": {
+      "n": 13123,
+      "positive_n": 828,
+      "pr_auc": 0.5701485303484584,
+      "roc_auc": 0.8684730056010357,
+      "f1": 0.45049954586739327,
+      "recall": 0.5990338164251208,
+      "precision": 0.3609898107714702,
+      "brier": 0.06466618481183622,
+      "ece": 0.08256647642193149,
+      "precision@

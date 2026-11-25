@@ -1,0 +1,45 @@
+{
+  "design": "logit-affine Platt fit: h_val on 8% validation window; h_test ILLEGALLY on 2.5% test window",
+  "family": "p = sigmoid(a*z + b), strictly monotone for a>0",
+  "n_test": 20000,
+  "test_base_rate": 0.02525,
+  "n_val": 4000,
+  "val_base_rate": 0.082,
+  "coefficients": {
+    "h_val": {
+      "a": 1.9258,
+      "b": -3.4571
+    },
+    "h_test": {
+      "a": 1.3986,
+      "b": -3.9553
+    }
+  },
+  "identity": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.38018787964405837,
+    "brier": 0.1977994299226143
+  },
+  "h_val": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.027689635248554178,
+    "brier": 0.027252015565564437
+  },
+  "h_test": {
+    "pr_auc": 0.18834167598780469,
+    "roc_auc": 0.8453849806627239,
+    "ece": 0.0020807807588516963,
+    "brier": 0.022350829259440697
+  },
+  "deltas": {
+    "dECE_h_val": -0.3525,
+    "dECE_h_test": -0.3781,
+    "dBrier_h_val": -0.1705,
+    "dBrier_h_test": -0.1754
+  },
+  "pr_auc_bit_identical": true,
+  "roc_auc_bit_identical": true,
+  "ranking_identical": true
+}

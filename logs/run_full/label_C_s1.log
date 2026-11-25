@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 538, in <module>
+    main()
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 498, in main
+    prep = prepare(args)
+           ^^^^^^^^^^^^^
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\scripts\run_pipeline.py", line 139, in prepare
+    y_eff, label_mask = apply_label_protocol(graph.y, args.label_protocol)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Financial Micro-Modelling Project\elliptic-causal-aml\src\data\label_protocol.py", line 23, in apply_label_protocol
+    raise ValueError("protocol C needs predictions for pseudo-labelling")
+ValueError: protocol C needs predictions for pseudo-labelling

@@ -1,0 +1,12 @@
+{
+  "n_steps": 20,
+  "n_nodes": 2000,
+  "edges_total": 5700,
+  "injected_future_edges": 262,
+  "nonfuture_filter_removed": 262,
+  "nonfuture_edges_retained": 5438,
+  "strict_boundary_removed_same_step": 0,
+  "strict_edges_retained": 5438,
+  "graph_collapses_under_strict": false,
+  "conclusion": "Contract is non-vacuous on a graph with cross-step edges: strict filtering retains cross-step edges and the graph does not collapse. Native Elliptic collapses only because its edges are all intra-step."
+}

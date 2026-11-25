@@ -1,0 +1,59 @@
+{
+  "runs": [
+    {
+      "run_id": "db43334945d8",
+      "model": "rf",
+      "dataset_version": "elliptic",
+      "pr_auc": 0.7303436947129757,
+      "brier": 0.024160354538311325,
+      "ece": 0.01792367603727754,
+      "edge_world": "real",
+      "split_mode": "chrono",
+      "label_protocol": "A"
+    },
+    {
+      "run_id": "58826b49e906",
+      "model": "rf",
+      "dataset_version": "elliptic",
+      "pr_auc": 0.7310366581324655,
+      "brier": 0.024503107243137322,
+      "ece": 0.018776877807092047,
+      "edge_world": "real",
+      "split_mode": "chrono",
+      "label_protocol": "A"
+    },
+    {
+      "run_id": "b0a70a8ede83",
+      "model": "rf",
+      "dataset_version": "elliptic",
+      "pr_auc": 0.7320080701569499,
+      "brier": 0.024395788851812854,
+      "ece": 0.019080920420192448,
+      "edge_world": "real",
+      "split_mode": "chrono",
+      "label_protocol": "A"
+    },
+    {
+      "run_id": "bca38459f4a6",
+      "model": "rf",
+      "dataset_version": "elliptic",
+      "pr_auc": 0.7315657510441785,
+      "brier": 0.02417324712807255,
+      "ece": 0.01731252664941822,
+      "edge_world": "real",
+      "split_mode": "chrono",
+      "label_protocol": "A"
+    },
+    {
+      "run_id": "498aa7941167",
+      "model": "rf",
+      "dataset_version": "elliptic",
+      "pr_auc": 0.7313292382850042,
+      "brier": 0.024445832424156818,
+      "ece": 0.01861187643307137,
+      "edge_world": "real",
+      "split_mode": "chrono",
+      "label_protocol": "A"
+    }
+  ]
+}

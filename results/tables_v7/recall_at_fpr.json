@@ -1,0 +1,30 @@
+{
+  "run_id": "72fcf5480415",
+  "seed": 0,
+  "source_checkpoint": "72fcf5480415.pt",
+  "protocol": "C1 chrono / protocol A",
+  "definition": "FPR measured over known-label test negatives; recall over known-label test positives",
+  "rows": [
+    {
+      "fpr": 0.01,
+      "n_neg": 12295,
+      "n_pos": 828,
+      "threshold": 0.7987,
+      "recall": 0.4191
+    },
+    {
+      "fpr": 0.05,
+      "n_neg": 12295,
+      "n_pos": 828,
+      "threshold": 0.4564,
+      "recall": 0.5652
+    },
+    {
+      "fpr": 0.1,
+      "n_neg": 12295,
+      "n_pos": 828,
+      "threshold": 0.2749,
+      "recall": 0.6159
+    }
+  ]
+}

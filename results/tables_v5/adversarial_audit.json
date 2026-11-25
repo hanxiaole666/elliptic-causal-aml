@@ -1,0 +1,51 @@
+{
+  "protocol": "auditor cross-checks declared manifest against RAW artifacts; 20 adversarial + 20 compliant per type",
+  "per_attack": {
+    "I2_forged_manifest": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0
+    },
+    "I4_refit": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0
+    },
+    "I5_missing": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0
+    },
+    "I1_overlap": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0
+    },
+    "I2_count": {
+      "tp": 20,
+      "fn": 0,
+      "fp": 0,
+      "tn": 20,
+      "precision": 1.0,
+      "recall": 1.0,
+      "fpr": 0.0
+    }
+  },
+  "note": "Unlike a manifest-only predicate check, forged manifests are detectable via raw edge times and calibration logs."
+}

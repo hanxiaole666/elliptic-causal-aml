@@ -1,0 +1,34 @@
+{
+  "status": "proxy, not real block timestamps",
+  "assumption": "within-step order recovered as uniform pseudo-rank (fixed seed)",
+  "question": "does the contract's strict boundary collapse when within-step order exists?",
+  "results": {
+    "native": {
+      "n_edges": 234355,
+      "strict_retained": 0,
+      "same_step_fraction": 1.0
+    },
+    "recovered_seed0": {
+      "strict_retained": 118025,
+      "retained_fraction": 0.5036,
+      "forward_edges": 118025,
+      "backward_edges": 116330,
+      "mean_abs_lag": 0.333
+    },
+    "recovered_seed1": {
+      "strict_retained": 117780,
+      "retained_fraction": 0.5026,
+      "forward_edges": 117780,
+      "backward_edges": 116575,
+      "mean_abs_lag": 0.3343
+    },
+    "recovered_seed2": {
+      "strict_retained": 116777,
+      "retained_fraction": 0.4983,
+      "forward_edges": 116777,
+      "backward_edges": 117578,
+      "mean_abs_lag": 0.3329
+    }
+  },
+  "interpretation": "Under recovered within-step order the graph does NOT collapse: roughly half of intra-step edges satisfy tau'(u)<tau'(v). This converts 'strict filtering is vacuous' from a data property into a resolution property of the released timestamps."
+}

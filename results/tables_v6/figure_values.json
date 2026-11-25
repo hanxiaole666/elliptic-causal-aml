@@ -1,0 +1,58 @@
+{
+  "same_step_boundary": {
+    "labels": [
+      "Full graph\n(non-future-step)",
+      "Zero-edge control\n(C1-E)"
+    ],
+    "values": [
+      0.521,
+      0.5
+    ],
+    "err": [
+      0.037,
+      0.051
+    ],
+    "n": [
+      15.0,
+      15.0
+    ],
+    "source_macros": [
+      "NumCSChronic",
+      "NumEmptyPr"
+    ]
+  },
+  "contract_ladder": {
+    "labels": [
+      "Random",
+      "Chrono",
+      "Unknown-neg"
+    ],
+    "values": [
+      0.911,
+      0.521,
+      0.126
+    ],
+    "source_macros": [
+      "NumLadOne",
+      "NumLadTwo",
+      "NumLadThree"
+    ]
+  },
+  "calibration_summary": {
+    "models": [
+      "Random Forest",
+      "LightGBM",
+      "CausalSAGE"
+    ],
+    "ece": [
+      0.021,
+      0.025,
+      0.072
+    ],
+    "brier": [
+      0.025,
+      0.028,
+      0.06
+    ]
+  }
+}
