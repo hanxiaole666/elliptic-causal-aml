@@ -33,7 +33,6 @@ postdates the test window).
 | `logs/run_v5/`, `logs/run_full/` | Raw experiment run logs (v5 and full matrices) |
 | `logs/run_v11/` | 93-column ablation run logs |
 | `logs/pytest-test-log.txt` | Output of `python -m pytest tests -q` (11 passed) |
-| `results/tables_v7/reference_14_doi_resolution.txt` | Crossref DOI-resolution record for [14] (the load-bearing feature-audit reference) |
 
 ## Reproducing the main numbers
 
