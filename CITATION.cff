@@ -14,5 +14,5 @@ keywords:
   - "reproducibility"
   - "temporal causality"
 license: "MIT"
-repository-code: "https://github.com/TODO/elliptic-causal-aml"
+repository-code: "https://github.com/hanxiaole666/elliptic-causal-aml.git"
 abstract: "Reproducible causal evaluation pipeline for the Elliptic AML graph."

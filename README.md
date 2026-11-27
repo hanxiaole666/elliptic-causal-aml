@@ -71,7 +71,6 @@ License: CC BY-NC-ND 4.0. Download logic and checksums are included; data files 
 
 - `python scripts/verify_v11.py` — 119/119 checks pass
 - `python -m pytest tests -q` — 11 passed (log in `logs/pytest-test-log.txt`)
-- Submitted PDF — 10 pages, zero LaTeX errors, zero text-layer glyph artifacts
 
 ## Honest scope
 
